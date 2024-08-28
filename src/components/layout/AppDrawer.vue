@@ -111,7 +111,6 @@ nextTick(() => {
             target="_blank"
             >Dai Vo</a
           >
-          <span> & </span>
         </div>
       </v-list-item>
     </template>
