@@ -20,16 +20,8 @@
 </p>
 
 <p align='center'>
-<a href="https://vitify-admin.netlify.app/">Live Demo<br><br></a>
-<a href="https://kingyue737.github.io/vitify-docs/">Documentation<br><br></a>
+<a href="https://vitify-admin.vercel.app">Live Demo<br><br></a>
 </p>
-
-## Variants
-
-- [vitify-nuxt](https://github.com/kingyue737/vitify-nuxt) - with Nuxt 3, the best DX 🔥🔥🔥
-
-- [vitify-next](https://github.com/kingyue737/vitify-next) - Lightweight Vue 3 version of this template
-- [vitify-electron](https://github.com/kingyue737/vitify-electron) - Vuetify 3 + Electron starter
 
 ## Features
 
@@ -95,7 +87,6 @@
   - [`unplugin-vue-i18n`](https://github.com/intlify/bundle-tools/tree/main/packages/unplugin-vue-i18n) - Prebundle Vue I18n messages and support SFC i18n custom block
 - [VueUse](https://github.com/antfu/vueuse) - Collection of useful composition APIs
 - [Mock Service Worker](https://github.com/mswjs/msw) - Seamless REST/GraphQL API mocking library for browser and Node.js
-- [`vite-plugin-vue2-svg`](https://github.com/pakholeung37/vite-plugin-vue2-svg) - Load SVG files as Vue components, and auto register as Vuetify `v-icon`s
 
 ### Compatibility
 
@@ -128,7 +119,7 @@
 
 ### GitHub Template
 
-[Create a repo from this template on GitHub](https://github.com/kingyue737/vitify-admin/generate).
+[Create a repo from this template on GitHub](https://github.com/DaiHai027/Vitify-admin/generate).
 
 ### Clone to local
 
@@ -139,8 +130,6 @@ npx degit kingyue737/vitify-admin my-vitify-app
 cd my-vitify-app
 pnpm i
 ```
-
-> Vitify Admin requires [`pnpm patch`](https://pnpm.io/cli/patch) for bug fixing in dependencies before maintainers release them. If you are using `yarn`, you can use [`yarn patch`](https://yarnpkg.com/cli/patch). For `npm` users, [`patch-package`](https://github.com/ds300/patch-package) is required as `npm` has no built-in patching functionality.
 
 ## Checklist
 
@@ -153,7 +142,6 @@ When you use this template, try follow the checklist to update your info properl
 - [ ] Clean up the `README` and remove routes
 - [ ] Change the copyright in navigation drawer and login page
 - [ ] Change default locale of `vue-i18n`
-- [ ] Change or remove [Cypress Cloud](https://cloud.cypress.io/) related ID in [ci.yml](https://github.com/kingyue737/vitify-admin/blob/main/.github/workflows/ci.yml)
 
 And, enjoy :)
 
@@ -196,12 +184,6 @@ pnpm build
 pnpm test:e2e
 ```
 
-### Record on Cypress Cloud
-
-Go to [Cypress Cloud](https://cloud.cypress.io/), create a new project and add its `projectId` as `${CYPRESS_PROJECT_ID}`, its `record key` as `$CYPRESS_RECORD_KEY` in your repositry secrets (https://github.com/your-name/project-name/settings/secrets/actions).
-
-If you don't want to use Cypress Cloud, remove `record: true` and the entire `env` block from [`.github/workflows/ci.yml`](https://github.com/kingyue737/vitify-admin/blob/main/.github/workflows/ci.yml):
-
 ```yml
 - name: Cypress
   uses: cypress-io/github-action@v4
@@ -219,20 +201,6 @@ If you don't want to use Cypress Cloud, remove `record: true` and the entire `en
     # pass the project ID from the secrets through environment variable
     CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
 ```
-
-### Deploy on Netlify
-
-Go to [Netlify](https://app.netlify.com/start) and select your clone, `OK` along the way, and your App will be live in a minute.
-
-### Documentation
-
-The [documentation](https://kingyue737.github.io/vitify-docs/) of this template is powered by [VitePress](https://vitepress.vuejs.org/) and [DocSearch](https://docsearch.algolia.com/)
-
-Repo: https://github.com/kingyue737/vitify-docs
-
-### Acknowledgement
-
-Inspired by [vitesse](https://github.com/antfu/vitesse) and [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) 💖. Thanks for every developer for making frontend community better.
 
 I made this starter template for promptly scaffolding admin projects of my company, along with some good practices I've learned during making these apps.
 
