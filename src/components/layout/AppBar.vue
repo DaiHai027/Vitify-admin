@@ -19,7 +19,7 @@ const { drawer } = storeToRefs(useAppStore())
     <v-btn
       text
       min-width="0"
-      href="https://github.com/kingyue737/vitify-admin"
+      href="https://github.com/DaiHai027/Vitify-admin"
       target="_blank"
     >
       <v-icon>mdi-github</v-icon>

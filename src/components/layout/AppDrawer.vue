@@ -106,18 +106,12 @@ nextTick(() => {
         <div class="caption pt-6 pt-md-0 text-center">
           &copy; Copyright 2022
           <a
-            href="https://github.com/kingyue737"
+            href="https://github.com/DaiHai027"
             class="font-weight-bold"
             target="_blank"
-            >Yue JIN</a
+            >Dai Vo</a
           >
           <span> & </span>
-          <a
-            href="https://www.nustarnuclear.com/"
-            class="font-weight-bold"
-            target="_blank"
-            >NuStar</a
-          >
         </div>
       </v-list-item>
     </template>

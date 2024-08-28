@@ -17,9 +17,9 @@ const users = [
   {
     id: 1,
     groups: [1],
-    username: 'kingyue737',
-    name: 'Yue JIN',
-    email: 'yuejin13@fudan.edu.cn',
+    username: 'DaiHai027',
+    name: 'Dai Vo',
+    email: 'daihaistar@gmail.com',
     joinDate: '2021-11-08T07:35:09.709Z',
   },
   {

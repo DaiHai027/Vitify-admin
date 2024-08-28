@@ -133,11 +133,8 @@ async function onSubmit() {
       <v-footer absolute color="transparent" dark>
         <v-col class="text-center" cols="12">
           &copy; Copyright 2022
-          <a href="https://github.com/kingyue737" target="blank">Yue JIN</a>
+          <a href="https://github.com/DaiHai027" target="blank">Dai Vo</a>
           <span> & </span>
-          <a href="http://www.nustarnuclear.com/" target="blank"
-            ><v-icon class="mt-n1">$nustar</v-icon>NuStar Nuclear</a
-          >
         </v-col>
       </v-footer>
     </v-img>
